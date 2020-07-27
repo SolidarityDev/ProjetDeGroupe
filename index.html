@@ -4,10 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <fieldset>
+        <legend>Inscription formation</legend>
+        <br>
+                <h2>Identité</h2>
+                        <form action="/ma-page-de-traitement" method="post">
+                            <div class="champ">
+                                <label for="name">Nom:</label>
+                                <input type="text" id="name" name="nom" placeholder="Aribi">
+                            </div>
+
+                            <div class="champ">
+                                <label for="surname">Prénom:</label>
+                                <input type="text" id="surname" name="prenom" placeholder="Rachid">
+                            </div>
+                                <div class="champ">
+                                 <label for="start">Date de naissance:</label>
+                                 <input id="naissance" type="date" value="jj-mm-aaaa">
+                                </div>
+
+                                <div class="champ">
+                                    <label for="mail">Entrez un mail :</label>
+                                    <input type="email" id="mail" name="mail" placeholder="monemail@adresse.com">
+                                </div>
+
+                                <div class="champ">
+                                    <label for="pass">Entrez un mot de passe (6 caractères minimum):</label>
+                                    <input type="password" id="pass" name="pass">
+                                </div>
+
+
+                                <div class="champ">
+                                    <label for="pays">Dernier diplôme obtenu</label>
+                                    <select name="pays" id="pays">
+                                        <option value="Séléctionner un diplôme">--Séléctionner un diplôme--</option>
+                                        <option value="bac">Bac</option>
+                                        <option value="brevet">Brevet</option>
+                                        <option value="cap">Cap</option>
+                                        <option value="Niveau 1 et plus">Niveau 1 et Plus</option>
+                                    </select>
+                                </div>
+
+                                <div class="champ">
+                                <label for="formation">Formation souhaitée </label>
+                                    <input type="text" id="formation" name="preparation">
+                                </div>
+
+                                <h2>Motivation</h2>
+                                    <p> Expliquez pourquoi vous voulez rejoindre la formation selectionnée:</p>
+                                    <textarea name="ameliorer" id="ameliorer" rows="10" cols="100">Vos motivations</textarea>
+
+                                <div class="champ">
+                                    <input type="submit" value="Envoyer">
+                                </div>
+                </form>
+    </fieldset>
+=======
           <legend>Inscription formation</legend>
           <br>
                   <h2>Identité</h2>
