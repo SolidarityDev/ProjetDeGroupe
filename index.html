@@ -7,6 +7,54 @@
     <title>Document</title>
 </head>
 <body>
+    <fieldset>
+          <legend>Inscription formation</legend>
+          <br>
+                  <h2>Identité</h2>
+                          <form action="/ma-page-de-traitement" method="post">
+                              <div class="champ">
+                                  <label for="name">Nom:</label>
+                                  <input type="text" id="name" name="nom" placeholder="Aribi">
+                              </div>
+  
+                              <div class="champ">
+                                  <label for="surname">Prénom:</label>
+                                  <input type="text" id="surname" name="prenom" placeholder="Rachid">
+                              </div>
+                                  <div class="champ">
+                                   <label for="start">Date de naissance:</label>
+                                   <input id="naissance" type="date" value="jj-mm-aaaa">
+                                  </div>
+  
+                                  <div class="champ">
+                                      <label for="mail">Entrez un mail :</label>
+                                      <input type="email" id="mail" name="mail" placeholder="monemail@adresse.com">
+                                  </div>
+  
+                                  <div class="champ">
+                                      <label for="pass">Entrez un mot de passe (6 caractères minimum):</label>
+                                      <input type="password" id="pass" name="pass">
+                                  </div>
+  
+  
+                                  <div class="champ">
+                                      <label for="pays">Dernier diplôme obtenu</label>
+                                      <select name="pays" id="pays">
+                                          <option value="Séléctionner un diplôme">--Séléctionner un diplôme--</option>
+                                          <option value="bac">Bac</option>
+                                          <option value="brevet">Brevet</option>
+                                          <option value="cap">Cap</option>
+                                          <option value="Niveau 1 et plus">Niveau 1 et Plus</option>
+                                      </select>
+                                  </div>
+  
+                                  <div class="champ">
+                                  <label for="formation">Formation souhaitée </label>
+                                      <input type="text" id="formation" name="preparation">
+                                  </div>
+  
+                  </form>
+      </fieldset>
     
 </body>
 </html>
